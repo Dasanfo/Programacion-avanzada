@@ -33,7 +33,7 @@ int main (){
 	// se pide cuantos usuario va a usar
 	cout<< "Cuantos usuarios va a ingresar: ";
 	cin>> cantidad;	
-	// se crea un vector del tamaño de las person 	as a ingresar
+	// se crea un vector del tamaÃ±o de las person 	as a ingresar
 	datos_usuarios personas[cantidad];
 	// se piden los datos al usuario
 	// se escribe sobre un fichero: se usa "ofstream" para almacenar el fichero
