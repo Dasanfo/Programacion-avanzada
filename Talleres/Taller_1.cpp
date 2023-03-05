@@ -22,7 +22,7 @@ int main(){
 	int array[10]; // creo el array de 10 
 	int *ptr_array; // creo un puntero 
 	
-	ptr_array = array; // el puntero señala o apunta al array
+	ptr_array = array; // el puntero seÃ±ala o apunta al array
 	
 		
 	for (int i = 0; i < 10; i++){
