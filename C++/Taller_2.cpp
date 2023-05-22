@@ -20,14 +20,14 @@ void generar_histograma(resultados valores_principales); // funcion que me ayuda
 int main() {
 
  resultados valores_principales; // variable tipo struc "resultados" para guardar la info del vector creado en la otra funcion
- int *array_aleatorio_principal = new int [100]; // creo un vector dinamico ya que no se cual va a ser el tamaño de este
+ int *array_aleatorio_principal = new int [100]; // creo un vector dinamico ya que no se cual va a ser el tamaÃ±o de este
 
 
  int opcion;// variable para saber que opcion escogio
 
  cout << ("--BIENVENIDO AL MENU--")<<endl; // le presento el menu
  cout << "1) presentar la generacion del conjunto de numeros aleatorios." <<endl;
- cout << "2) presentar el histograma del conjunto de números aleatorios." <<endl;
+ cout << "2) presentar el histograma del conjunto de nÃºmeros aleatorios." <<endl;
  cout << "Que desea hacer?: ";
  cin >> opcion;
 
@@ -35,7 +35,7 @@ int main() {
 
 // creo condiciones para presentar la parte del menu
  if (opcion == 1){
-   // Le muestro el vector y  el valor mas grande que este contiene ademas el tamaño del vector
+   // Le muestro el vector y  el valor mas grande que este contiene ademas el tamaÃ±o del vector
  	cout <<endl;
  	cout <<("--------------------------------------------------------------")<<endl;
  	cout << ("VECTOR: ");
@@ -147,11 +147,11 @@ void generar_histograma(resultados valores_principales){
 		}
 	}
 
-// muestro el indice del vector ademas de los numeros unicos del vetor aleatorio y la cantidad de veces que se reíte con *
+// muestro el indice del vector ademas de los numeros unicos del vetor aleatorio y la cantidad de veces que se reÃ­te con *
 	int indice = 1;
     cout <<"Indice:\t""Numero:\tHistograma:"<<endl;
 
-    for(int f = 0; f < valores_principales.tamano_vector; f++){//Muestra el número de veces que aparece cada número en el arreglo por medio de un histograma.
+    for(int f = 0; f < valores_principales.tamano_vector; f++){//Muestra el nÃºmero de veces que aparece cada nÃºmero en el arreglo por medio de un histograma.
       if(contador[f]>0){
          cout <<indice<<"\t\t"<<valores_principales.puntero_vector[f]<<"\t\t";
          for(int p = 0; p < contador[f]; p++){
