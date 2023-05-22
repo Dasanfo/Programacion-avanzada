@@ -24,13 +24,13 @@ using namespace std;
  
  int main (){
 
-	datos *ptr_datos; // creo un apuntador que guarde la direccion de memoria de ¡los usuarios 
+	datos *ptr_datos; // creo un apuntador que guarde la direccion de memoria de Â¡los usuarios 
 	int cantidad_usuarios; // creo una variable para saber cuantos usuarios van a igresar 
 	
 	cout << "Cuantos usuarios va a ingresar: ";
 	cin >> cantidad_usuarios; 
 	
-	datos usuarios[cantidad_usuarios]; // Creo un vector tipo "datos" del tamaño de los usuarios a ingresar 
+	datos usuarios[cantidad_usuarios]; // Creo un vector tipo "datos" del tamaÃ±o de los usuarios a ingresar 
 	
 	ptr_datos = usuarios; // Igualo el puntero con el vector tipo "datos"
 	
