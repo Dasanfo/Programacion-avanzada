@@ -11,7 +11,7 @@
        3. El valor si es recidencial es igual a 20.7 mas 8.8 veces la cantidad de canales primium.
        4. El valor si es de negocio vendra definido por: 
           - Si la cantidad de conexiones de servicio basicos es mayor a 10
-            *El valor es igual a el restante de los 10 (conexiones_servicios_basicos) más 78.9 más 18.7                  veces cantidad_canales_premium.
+            *El valor es igual a el restante de los 10 (conexiones_servicios_basicos) mÃ¡s 78.9 mÃ¡s 18.7                  veces cantidad_canales_premium.
        5.- Al final se pregunta al usuario si quiere ingresar otro cliente.
 */ 
   
@@ -38,7 +38,7 @@ int main() {
   do{
     // Creo un vector para guadar los datos de cada usuario.
    vector<datos> usuarios;
-    // Redefino el tamaño del vector, asi cada vez que ingrese un cliente nuevo el tamaño del vector cambiara.
+    // Redefino el tamaÃ±o del vector, asi cada vez que ingrese un cliente nuevo el tamaÃ±o del vector cambiara.
    usuarios.resize(i+1);
   
    // Capturo los datos del cliente y los guardo en el vector-stuct.
