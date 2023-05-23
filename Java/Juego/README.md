@@ -18,7 +18,7 @@ El juego del Ahorcado es un juego en el que el jugador intenta adivinar una pala
 
 ### Cambios Realizados
 
-Se han realizado los siguientes cambios en el código del juego del Ahorcado:
+Se han realizado los siguientes cambios en el código del juego del Ahorcado: https://replit.com/@SantiagoForero7/Juego#Main.java
 
 1. Se ha agregado una documentación completa en el código para facilitar su comprensión.
 
